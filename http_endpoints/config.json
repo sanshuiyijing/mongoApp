@@ -1,0 +1,19 @@
+[
+  {
+    "name": "untitled endpoint",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/csfff",
+    "data_source": {
+      "cluster_id": 3268942
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-csfff.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
