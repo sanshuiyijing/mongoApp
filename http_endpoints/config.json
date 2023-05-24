@@ -1,18 +1,18 @@
 [
   {
-    "name": "",
+    "name": "untitled endpoint",
     "description": "",
     "method": "POST",
-    "endpoint": "/xsfff",
+    "endpoint": "/csfff",
     "data_source": {
-      "cluster_id": 3299139
+      "cluster_id": 3268942
     },
     "params": [],
     "settings": {
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/POST-xsfff.sql",
+    "sql_file": "sql/POST-csfff.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
