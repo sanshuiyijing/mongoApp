@@ -2,7 +2,7 @@
   {
     "name": "untitled endpoint",
     "description": "",
-    "method": "GET",
+    "method": "POST",
     "endpoint": "/csfff",
     "data_source": {
       "cluster_id": 3268942
