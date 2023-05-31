@@ -3,7 +3,7 @@
     "name": "/dsdsd",
     "description": "",
     "method": "GET",
-    "endpoint": "/dsdsd",
+    "endpoint": "/f",
     "data_source": {
       "cluster_id": 3179000
     },
@@ -12,7 +12,7 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-dsdsd.sql",
+    "sql_file": "sql/GET-f.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
