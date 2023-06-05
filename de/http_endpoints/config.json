@@ -1,22 +1,5 @@
 [
   {
-    "name": "/2",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/2",
-    "data_source": {
-      "cluster_id": 3478954
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "sql_file": "sql/GET-2.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
     "name": "untitled endpoint",
     "description": "",
     "method": "GET",
@@ -51,23 +34,6 @@
     "return_type": "json"
   },
   {
-    "name": "/endpoint2",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/endpoint2",
-    "data_source": {
-      "cluster_id": 3478954
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "sql_file": "sql/GET-endpoint2.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
     "name": "untitled endpoint",
     "description": "",
     "method": "GET",
@@ -98,6 +64,23 @@
       "row_limit": 50
     },
     "sql_file": "sql/POST-223.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/endpoint2",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/endpoint2",
+    "data_source": {
+      "cluster_id": 3478954
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-endpoint2.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
