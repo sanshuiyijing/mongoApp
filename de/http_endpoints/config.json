@@ -1,6 +1,6 @@
 [
   {
-    "name": "untitled endpoint",
+    "name": "/1",
     "description": "",
     "method": "GET",
     "endpoint": "/1",
@@ -51,6 +51,23 @@
     "return_type": "json"
   },
   {
+    "name": "/2",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/2",
+    "data_source": {
+      "cluster_id": 3478954
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "/223",
     "description": "",
     "method": "POST",
@@ -81,23 +98,6 @@
       "row_limit": 50
     },
     "sql_file": "sql/GET-endpoint2.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/2",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/2",
-    "data_source": {
-      "cluster_id": 3478954
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "sql_file": "sql/GET-2.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
